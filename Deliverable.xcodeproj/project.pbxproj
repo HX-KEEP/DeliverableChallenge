@@ -7,14 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		792012DC24A90148008EEA9C /* DeliverableDatabase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 792012DA24A90148008EEA9C /* DeliverableDatabase.xcdatamodeld */; };
+		792012DE24A912C4008EEA9C /* DeliverableUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792012DD24A912C4008EEA9C /* DeliverableUI.swift */; };
+		792012E024A91509008EEA9C /* DeliveryLogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792012DF24A91509008EEA9C /* DeliveryLogCell.swift */; };
+		792012E324A9160F008EEA9C /* OrderEntryCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792012E224A9160F008EEA9C /* OrderEntryCodable.swift */; };
+		792012E724AA2502008EEA9C /* DeliveryLogEmptyDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792012E624AA2502008EEA9C /* DeliveryLogEmptyDisplay.swift */; };
+		792012EB24AA6037008EEA9C /* DeliveryLogPaginationInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792012EA24AA6037008EEA9C /* DeliveryLogPaginationInterface.swift */; };
+		792012ED24AB4F08008EEA9C /* OrderControlPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792012EC24AB4F08008EEA9C /* OrderControlPanel.swift */; };
+		792012EF24AB6DD4008EEA9C /* DeliveryLogLoadingWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792012EE24AB6DD4008EEA9C /* DeliveryLogLoadingWidget.swift */; };
+		792012F324AB8D5C008EEA9C /* DeliveryOrderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792012F224AB8D5C008EEA9C /* DeliveryOrderManager.swift */; };
+		792012F624AB9490008EEA9C /* FavoriteDeliveryOrder+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792012F424AB9490008EEA9C /* FavoriteDeliveryOrder+CoreDataClass.swift */; };
+		792012F724AB9490008EEA9C /* FavoriteDeliveryOrder+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792012F524AB9490008EEA9C /* FavoriteDeliveryOrder+CoreDataProperties.swift */; };
+		792012FB24ABCB4E008EEA9C /* OrderDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792012FA24ABCB4E008EEA9C /* OrderDetailsCell.swift */; };
 		7935F81424A64ADD00B8F1A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7935F81324A64ADD00B8F1A9 /* AppDelegate.swift */; };
 		7935F81624A64ADD00B8F1A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7935F81524A64ADD00B8F1A9 /* SceneDelegate.swift */; };
-		7935F81824A64ADD00B8F1A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7935F81724A64ADD00B8F1A9 /* ContentView.swift */; };
 		7935F81A24A64AE000B8F1A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7935F81924A64AE000B8F1A9 /* Assets.xcassets */; };
-		7935F81D24A64AE000B8F1A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7935F81C24A64AE000B8F1A9 /* Preview Assets.xcassets */; };
 		7935F82024A64AE000B8F1A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7935F81E24A64AE000B8F1A9 /* LaunchScreen.storyboard */; };
 		7935F82B24A64AE000B8F1A9 /* DeliverableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7935F82A24A64AE000B8F1A9 /* DeliverableTests.swift */; };
 		7935F83624A64AE000B8F1A9 /* DeliverableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7935F83524A64AE000B8F1A9 /* DeliverableUITests.swift */; };
+		7935F85024A64BE800B8F1A9 /* DeliveryLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7935F84F24A64BE800B8F1A9 /* DeliveryLogController.swift */; };
+		7935F85424A64C2E00B8F1A9 /* DeliveryLogModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7935F85324A64C2E00B8F1A9 /* DeliveryLogModel.swift */; };
+		7935F85624A64C5400B8F1A9 /* DeliveryLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7935F85524A64C5400B8F1A9 /* DeliveryLogView.swift */; };
+		7935F85924A64D0C00B8F1A9 /* OrderDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7935F85824A64D0C00B8F1A9 /* OrderDetailsController.swift */; };
+		7935F85D24A64D3900B8F1A9 /* OrderDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7935F85C24A64D3900B8F1A9 /* OrderDetailsModel.swift */; };
+		7935F85F24A64D5800B8F1A9 /* OrderDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7935F85E24A64D5800B8F1A9 /* OrderDetailsView.swift */; };
+		7935F86124A75A0B00B8F1A9 /* DeliverableHelperLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7935F86024A75A0B00B8F1A9 /* DeliverableHelperLib.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +52,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		792012DB24A90148008EEA9C /* DeliverableDatabase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DeliverableDatabase.xcdatamodel; sourceTree = "<group>"; };
+		792012DD24A912C4008EEA9C /* DeliverableUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliverableUI.swift; sourceTree = "<group>"; };
+		792012DF24A91509008EEA9C /* DeliveryLogCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryLogCell.swift; sourceTree = "<group>"; };
+		792012E224A9160F008EEA9C /* OrderEntryCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderEntryCodable.swift; sourceTree = "<group>"; };
+		792012E624AA2502008EEA9C /* DeliveryLogEmptyDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryLogEmptyDisplay.swift; sourceTree = "<group>"; };
+		792012EA24AA6037008EEA9C /* DeliveryLogPaginationInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryLogPaginationInterface.swift; sourceTree = "<group>"; };
+		792012EC24AB4F08008EEA9C /* OrderControlPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderControlPanel.swift; sourceTree = "<group>"; };
+		792012EE24AB6DD4008EEA9C /* DeliveryLogLoadingWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryLogLoadingWidget.swift; sourceTree = "<group>"; };
+		792012F224AB8D5C008EEA9C /* DeliveryOrderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryOrderManager.swift; sourceTree = "<group>"; };
+		792012F424AB9490008EEA9C /* FavoriteDeliveryOrder+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FavoriteDeliveryOrder+CoreDataClass.swift"; sourceTree = "<group>"; };
+		792012F524AB9490008EEA9C /* FavoriteDeliveryOrder+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FavoriteDeliveryOrder+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		792012FA24ABCB4E008EEA9C /* OrderDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailsCell.swift; sourceTree = "<group>"; };
 		7935F81024A64ADC00B8F1A9 /* Deliverable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Deliverable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7935F81324A64ADD00B8F1A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7935F81524A64ADD00B8F1A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7935F81724A64ADD00B8F1A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7935F81924A64AE000B8F1A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7935F81C24A64AE000B8F1A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7935F81F24A64AE000B8F1A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7935F82124A64AE000B8F1A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7935F82624A64AE000B8F1A9 /* DeliverableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeliverableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +76,13 @@
 		7935F83124A64AE000B8F1A9 /* DeliverableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeliverableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7935F83524A64AE000B8F1A9 /* DeliverableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliverableUITests.swift; sourceTree = "<group>"; };
 		7935F83724A64AE000B8F1A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7935F84F24A64BE800B8F1A9 /* DeliveryLogController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryLogController.swift; sourceTree = "<group>"; };
+		7935F85324A64C2E00B8F1A9 /* DeliveryLogModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryLogModel.swift; sourceTree = "<group>"; };
+		7935F85524A64C5400B8F1A9 /* DeliveryLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryLogView.swift; sourceTree = "<group>"; };
+		7935F85824A64D0C00B8F1A9 /* OrderDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailsController.swift; sourceTree = "<group>"; };
+		7935F85C24A64D3900B8F1A9 /* OrderDetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailsModel.swift; sourceTree = "<group>"; };
+		7935F85E24A64D5800B8F1A9 /* OrderDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailsView.swift; sourceTree = "<group>"; };
+		7935F86024A75A0B00B8F1A9 /* DeliverableHelperLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliverableHelperLib.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +110,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		792012E124A91594008EEA9C /* APICodableObjects */ = {
+			isa = PBXGroup;
+			children = (
+				792012E224A9160F008EEA9C /* OrderEntryCodable.swift */,
+			);
+			path = APICodableObjects;
+			sourceTree = "<group>";
+		};
+		792012FC24ABD41A008EEA9C /* DeliveryOrderManager */ = {
+			isa = PBXGroup;
+			children = (
+				792012F224AB8D5C008EEA9C /* DeliveryOrderManager.swift */,
+				792012FD24ABD423008EEA9C /* Model */,
+			);
+			path = DeliveryOrderManager;
+			sourceTree = "<group>";
+		};
+		792012FD24ABD423008EEA9C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				792012F424AB9490008EEA9C /* FavoriteDeliveryOrder+CoreDataClass.swift */,
+				792012F524AB9490008EEA9C /* FavoriteDeliveryOrder+CoreDataProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		7935F80724A64ADC00B8F1A9 = {
 			isa = PBXGroup;
 			children = (
@@ -101,21 +161,18 @@
 			children = (
 				7935F81324A64ADD00B8F1A9 /* AppDelegate.swift */,
 				7935F81524A64ADD00B8F1A9 /* SceneDelegate.swift */,
-				7935F81724A64ADD00B8F1A9 /* ContentView.swift */,
 				7935F81924A64AE000B8F1A9 /* Assets.xcassets */,
+				792012DD24A912C4008EEA9C /* DeliverableUI.swift */,
 				7935F81E24A64AE000B8F1A9 /* LaunchScreen.storyboard */,
 				7935F82124A64AE000B8F1A9 /* Info.plist */,
-				7935F81B24A64AE000B8F1A9 /* Preview Content */,
+				792012DA24A90148008EEA9C /* DeliverableDatabase.xcdatamodeld */,
+				7935F86024A75A0B00B8F1A9 /* DeliverableHelperLib.swift */,
+				792012FC24ABD41A008EEA9C /* DeliveryOrderManager */,
+				792012E124A91594008EEA9C /* APICodableObjects */,
+				7935F84E24A64BD400B8F1A9 /* DeliveryLog */,
+				7935F85724A64CE600B8F1A9 /* OrderDetails */,
 			);
 			path = Deliverable;
-			sourceTree = "<group>";
-		};
-		7935F81B24A64AE000B8F1A9 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				7935F81C24A64AE000B8F1A9 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		7935F82924A64AE000B8F1A9 /* DeliverableTests */ = {
@@ -134,6 +191,64 @@
 				7935F83724A64AE000B8F1A9 /* Info.plist */,
 			);
 			path = DeliverableUITests;
+			sourceTree = "<group>";
+		};
+		7935F84E24A64BD400B8F1A9 /* DeliveryLog */ = {
+			isa = PBXGroup;
+			children = (
+				7935F85224A64BF800B8F1A9 /* Model */,
+				7935F85124A64BF200B8F1A9 /* View */,
+				7935F84F24A64BE800B8F1A9 /* DeliveryLogController.swift */,
+			);
+			path = DeliveryLog;
+			sourceTree = "<group>";
+		};
+		7935F85124A64BF200B8F1A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7935F85524A64C5400B8F1A9 /* DeliveryLogView.swift */,
+				792012EA24AA6037008EEA9C /* DeliveryLogPaginationInterface.swift */,
+				792012DF24A91509008EEA9C /* DeliveryLogCell.swift */,
+				792012E624AA2502008EEA9C /* DeliveryLogEmptyDisplay.swift */,
+				792012EE24AB6DD4008EEA9C /* DeliveryLogLoadingWidget.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7935F85224A64BF800B8F1A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7935F85324A64C2E00B8F1A9 /* DeliveryLogModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7935F85724A64CE600B8F1A9 /* OrderDetails */ = {
+			isa = PBXGroup;
+			children = (
+				7935F85B24A64D2600B8F1A9 /* Model */,
+				7935F85A24A64D2100B8F1A9 /* View */,
+				7935F85824A64D0C00B8F1A9 /* OrderDetailsController.swift */,
+			);
+			path = OrderDetails;
+			sourceTree = "<group>";
+		};
+		7935F85A24A64D2100B8F1A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7935F85E24A64D5800B8F1A9 /* OrderDetailsView.swift */,
+				792012EC24AB4F08008EEA9C /* OrderControlPanel.swift */,
+				792012FA24ABCB4E008EEA9C /* OrderDetailsCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7935F85B24A64D2600B8F1A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7935F85C24A64D3900B8F1A9 /* OrderDetailsModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,7 +356,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7935F82024A64AE000B8F1A9 /* LaunchScreen.storyboard in Resources */,
-				7935F81D24A64AE000B8F1A9 /* Preview Assets.xcassets in Resources */,
 				7935F81A24A64AE000B8F1A9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,9 +381,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				792012EB24AA6037008EEA9C /* DeliveryLogPaginationInterface.swift in Sources */,
+				7935F85D24A64D3900B8F1A9 /* OrderDetailsModel.swift in Sources */,
+				7935F85424A64C2E00B8F1A9 /* DeliveryLogModel.swift in Sources */,
+				792012E324A9160F008EEA9C /* OrderEntryCodable.swift in Sources */,
+				792012F724AB9490008EEA9C /* FavoriteDeliveryOrder+CoreDataProperties.swift in Sources */,
+				792012FB24ABCB4E008EEA9C /* OrderDetailsCell.swift in Sources */,
+				792012E724AA2502008EEA9C /* DeliveryLogEmptyDisplay.swift in Sources */,
+				7935F85624A64C5400B8F1A9 /* DeliveryLogView.swift in Sources */,
+				7935F85924A64D0C00B8F1A9 /* OrderDetailsController.swift in Sources */,
+				7935F85024A64BE800B8F1A9 /* DeliveryLogController.swift in Sources */,
+				792012F324AB8D5C008EEA9C /* DeliveryOrderManager.swift in Sources */,
 				7935F81424A64ADD00B8F1A9 /* AppDelegate.swift in Sources */,
+				792012DC24A90148008EEA9C /* DeliverableDatabase.xcdatamodeld in Sources */,
+				792012E024A91509008EEA9C /* DeliveryLogCell.swift in Sources */,
+				7935F85F24A64D5800B8F1A9 /* OrderDetailsView.swift in Sources */,
+				792012F624AB9490008EEA9C /* FavoriteDeliveryOrder+CoreDataClass.swift in Sources */,
 				7935F81624A64ADD00B8F1A9 /* SceneDelegate.swift in Sources */,
-				7935F81824A64ADD00B8F1A9 /* ContentView.swift in Sources */,
+				7935F86124A75A0B00B8F1A9 /* DeliverableHelperLib.swift in Sources */,
+				792012EF24AB6DD4008EEA9C /* DeliveryLogLoadingWidget.swift in Sources */,
+				792012DE24A912C4008EEA9C /* DeliverableUI.swift in Sources */,
+				792012ED24AB4F08008EEA9C /* OrderControlPanel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,7 +567,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Deliverable/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Deliverable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -454,7 +585,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Deliverable/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Deliverable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -588,6 +718,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		792012DA24A90148008EEA9C /* DeliverableDatabase.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				792012DB24A90148008EEA9C /* DeliverableDatabase.xcdatamodel */,
+			);
+			currentVersion = 792012DB24A90148008EEA9C /* DeliverableDatabase.xcdatamodel */;
+			path = DeliverableDatabase.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 7935F80824A64ADC00B8F1A9 /* Project object */;
 }
