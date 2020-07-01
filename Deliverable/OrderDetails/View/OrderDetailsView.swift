@@ -86,8 +86,7 @@ class OrderDetailsView: UIView {
         HelperUILayout.manager.placeAxises(for: self.dividerLine, viewSize: dividerSize, x: HelperUILayout.LayoutXAxis.center, xAnchor: self.centerXAnchor, xOffset: 0, y: HelperUILayout.LayoutYAxis.top, yAnchor: self.orderControlPanel.bottomAnchor, yOffset: 0)
         
         /* order details */
-        let orderDetailSize = CGSize(width: viewFrame.size.width, height: viewFrame.size.height - 62)
-        HelperUILayout.manager.placeAxises(for: self.orderDetails, viewSize: orderDetailSize, x: HelperUILayout.LayoutXAxis.center, xAnchor: self.centerXAnchor, xOffset: 0, y: HelperUILayout.LayoutYAxis.top, yAnchor: self.dividerLine.bottomAnchor, yOffset: 0)
+        HelperUILayout.manager.placeEdges(for: self.orderDetails, top: self.dividerLine.bottomAnchor, left: self.leftAnchor, bottom: self.safeAreaLayoutGuide.bottomAnchor, right: self.rightAnchor)
     }
     
     /* ---------------------------------------------------------------------- */
@@ -96,7 +95,7 @@ class OrderDetailsView: UIView {
 extension OrderDetailsView {
     /* ----------------- Subcomponents & Reusable Subviews ------------------ */
     private func initializeSubcomponent() {
-        self.backgroundColor = UIColor.clear
+        self.backgroundColor = DeliverableUI.Color.backgroundColor
         
         /* Add Subviews & Sublayers */
         self.addSubview(self.orderControlPanel)
